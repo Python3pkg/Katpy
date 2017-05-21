@@ -63,16 +63,16 @@ class Torrent(object):
 
     def print_details(self):
         """Print torrent details"""
-        print("Title:", self.title)
-        print("Category:", self.category)
-        print("Page: ", self.page)
-        print("Size: ", self.size)
-        print("Files: ", self.files)
-        print("Age: ", self.age)
-        print("Seeds:", self.seeders)
-        print("Leechers: ", self.leechers)
-        print("Magnet: ", self.magnet)
-        print("Download: ", self.download)
+        print(("Title:", self.title))
+        print(("Category:", self.category))
+        print(("Page: ", self.page))
+        print(("Size: ", self.size))
+        print(("Files: ", self.files))
+        print(("Age: ", self.age))
+        print(("Seeds:", self.seeders))
+        print(("Leechers: ", self.leechers))
+        print(("Magnet: ", self.magnet))
+        print(("Download: ", self.download))
 
     @property
     def download(self):
